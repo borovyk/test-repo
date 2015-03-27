@@ -1,0 +1,225 @@
+/* Helper classes */
+.clearfix {
+	*zoom: 1;
+}
+.drophead {
+	margin-top: 10px;
+	padding-top: 0;
+}
+.addhead {
+	margin-top: 20px;
+}
+.border {
+	border: 1px solid #d5d9dc;
+}
+@media (max-width: 767px) {
+	.no-pull-xs {
+		float: none !important;
+	}
+}
+
+/* Clearfix */
+.canvas:before,
+.canvas:after,
+.menu-action:before,
+.menu-action:after,
+.labels-block:before,
+.labels-block:after {
+	content: " ";
+	display: table;
+}
+.canvas:after,
+.menu-action:after,
+.labels-block:after {
+	clear: both;
+}
+
+/* Inner menu of Main menu */
+.navbar-inner {
+	background-color:#fff;
+	border-bottom: 1px solid #d5d9dc;
+	min-height: 50px;
+}
+.navbar-inner .nav-first {
+	margin-left: -15px !important;
+	float: left;
+}
+.navbar-inner .navbar-nav {
+	margin-bottom: -1px;
+}
+.navbar-inner .navbar-nav > li {
+	padding:0 15px 0 15px;
+}
+.navbar-inner .navbar-nav > li > a {
+	height: 50px;
+	display: block;
+	line-height: 1;
+	padding: 17px 0 0 0;
+  }
+.navbar-inner .navbar-nav > li.active > a {
+	color: #000;
+}
+.navbar-inner .navbar-nav > li.active > a, 
+.navbar-inner .navbar-nav > li > a:hover, 
+.navbar-inner .navbar-nav > li > a:focus {
+	border-bottom: 4px solid #e42469;
+	text-decoration: none;
+	background-color: transparent;
+}
+.navbar-inner .navbar-toggle {
+	float: left;
+	margin: 13px 0 0 15px;
+	padding: 0 0;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* Sidebar menu */
+.sidenav {
+	margin-top: 45px;
+	margin-left: -10px;
+}
+.sidenav > li > a {
+	display: block;
+	padding: 5px 0 5px 20px;
+}
+.sidenav > .active > a,
+.sidenav > li > a:hover {
+	padding-left: 17px;
+	color: #e42469;
+	background-color: transparent;
+	border-left: 3px solid #e42469;
+}
+.sidenav > .up {
+	margin-top: 25px;
+}
+
+/* Content - 690px side */
+.main-content {
+	margin: 45px auto 0 auto;
+	padding:0 20px 45px 20px;
+}
+.container .main-content {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 45px; 
+}
+@media (min-width: 768px) {
+	.main-content {
+		width: 730px;
+	}
+	.container .main-content {
+		width: auto;
+	}
+}
+/*.main-content ul li {
+	background: url('../i/point-li.png') 0 8px no-repeat;
+	background-size: 7px;
+	list-style: none;
+	padding-left: 15px;
+}*/
+
+/* Action menu - delete, edit etc. */
+.menu-action {
+	padding-top: 10px;
+	margin-left: 0;
+}
+.menu-action > li {
+	padding-left: 0;
+	padding-right: 0;
+	color: #6b7886;
+}
+
+
+
+
+
+
+/*** My_Resumes page ***/
+/* Help link */
+.i-help {
+	display: block;
+	float:right;
+	font-size: 17px;
+	font-weight: normal;
+	padding-top: 15px;
+}
+@media (max-width: 767px) {
+	.i-help span {
+		display: none;
+	}
+	.i-help {
+		width: 20px;
+		height: 20px;
+		background: url(../i/i-mobile-help.png) 0 0 no-repeat;
+		margin-top: 12px;
+	}
+	.i-help:hover {
+		text-decoration: none;
+	}
+}
+
+/* Resume data menu - views, shows etc. */
+.menu-view-data {
+	float:right;
+	margin-right: -5px;
+	margin-top: 15px;
+	color: #6b7886;
+}
+@media (max-width: 1199px) {
+	.menu-view-data {
+		margin-left: -45px;
+	}
+}
+.menu-view-data > li {
+	padding: 0 20px;
+}
+.view-data-label,
+.view-data-value {
+	display: block;
+	text-align: center;
+}
+.view-data-value {
+	font-size: 30px;
+	line-height: 1.1;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.view-data-label {
+	font-size: 15px;
+}
+.view-data-all-views {
+	display: block;
+	text-decoration: none !important;
+	position: relative;
+	padding-right: 25px;
+}
+.view-data-all-views .badge {
+	position: absolute;
+	right: 0;
+}
+/* ### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

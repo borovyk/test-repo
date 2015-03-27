@@ -1,0 +1,59 @@
+@media (min-width: 992px) {
+	.col-md-8 {
+		width: 71.5686275%;
+	}
+	.col-md-4 {
+		width: 28.4313725%;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav {
+		margin: 0 -10px 0 0;
+	}
+	.navbar-nav > li > a > span {
+		display: none;
+	}
+	.navbar-default .navbar-nav > li > a {
+		width: 50px;
+		height: 70px;
+		background: url(../i/i-mobile-nav-jobseeker.png) 10px 20px no-repeat;
+	}
+	.navbar-default .navbar-nav > li.i-jobseeker > a {
+		background-position: -40px 20px;
+	}
+	.navbar-brand .logo-ua {
+		display: none;
+	}
+	.navbar-inner .navbar-nav {
+		margin: 0;
+	}
+	.panel,
+	.nav-tabs {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.panel-white-wide .panel-body > .row,
+	.panel-white {
+		border-left: none;
+		border-right: none;
+	}
+	.nav-tabs > li > a {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.navbar-collapse {
+		clear: both /* THINK */
+	}
+	.canvas,
+	.alert,
+	.bg {
+		border-left: none;
+		border-right: none;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.alert {
+		border-radius: 0;
+	}
+}
+

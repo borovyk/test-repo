@@ -1,0 +1,395 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+	margin: 0;
+}
+
+h1,
+.h1 {
+	font-weight: bold;
+	padding: 25px 0 5px 0;
+}
+h2,
+.h2 {
+	font-weight: bold;
+	color: #2C3F52;
+	padding: 20px 0 5px 0;
+}
+h3,
+.h3 {
+	color: #6b7886;
+	padding: 20px 0 5px 0;
+}
+p {
+	margin: 10px 0;
+}
+hr {
+	margin: 15px -25px 25px -25px;
+	border-top-color: #d5d9dc;
+}
+
+/* Fonts */
+.small { /* THINK */
+
+}
+
+/* Colors */
+.text-muted,
+a.text-muted,
+a.text-muted:hover,
+a.text-muted:focus {
+	color: #6b7886;
+}
+.text-danger,
+a.text-danger,
+a.text-danger:hover,
+a.text-danger:focus {
+	color: #ff3b30;
+}
+
+/* Main menu */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+}
+.navbar-default .navbar-header, .navbar-default .navbar-nav > li {
+    float: left;
+}
+.navbar-brand {
+	padding: 20px;
+}
+.navbar-brand > img {
+	width: auto;
+	height: 30px;
+	display: inline;
+}
+.navbar-right {
+	float: right !important;
+	margin-right: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 20px;
+}
+.navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li.active:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -12px;
+	vertical-align: middle;
+	content: " ";
+	border-right: 11px solid transparent;
+	border-bottom: 11px solid #fff;
+	border-left: 11px solid transparent;
+}
+
+/* Navs */
+.nav-tabs {
+  border-bottom: 1px solid #d5d9dc;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	border-radius: 0;
+	border-color: #bee4f7;
+	border-bottom-color: transparent !important;
+	margin-right: -1px;
+	padding: 10px 30px;
+	position: relative;
+	z-index: 1;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+	background-color: transparent;
+	border-color: #bee4f7;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	background-color: #f4f5f7;
+	border-color: #d5d9dc;
+	color: #000;
+	z-index: 2;
+}
+
+/* Canvas */
+.canvas {
+	background-color: #fff;
+	border: 1px solid #d5d9dc;
+	margin-bottom: 20px;
+	padding: 0 25px 25px 25px;
+}
+/* Item with border line in Canvas */
+.item-to-add {
+	margin: 15px -25px 0 -25px;
+	padding: 10px 25px 0 25px;
+	border-top: 1px solid #d5d9dc;
+}
+/* Line in grey Canvas */
+.canvas.bg-grey hr {
+	margin-top: 40px !important;
+	margin-bottom: 0 !important;
+}
+
+/* Labels */
+.label {
+	display: block;
+	float: left;
+	font-size: 80%;
+	font-weight: normal;
+	color: #6b7886;
+	border-radius: .45em;
+	margin: 5px 5px 0 5px;
+	white-space: normal;
+	text-align: left;
+}
+.label-default {
+	background-color: #e9ebed;
+}
+.label-vip {
+	background-color: #ffdd62;
+	color: #fc551f;
+}
+.label-pro {
+	background-color: #deddf7;
+	color: #5856d6;
+}
+.label-archive {
+	background-color: #ece6df;
+	color: #655440;
+}
+.labels-block {
+	margin-left: -5px;
+}
+.labels-block a {
+	display: block;
+	float: left;
+	padding-top: .2em;
+	margin: 0 5px 0 5px;
+}
+
+/* Badge */
+.badge {
+	padding: 3px 10px;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #e42469;
+}
+
+/* Alerts */
+.alert {
+	border-radius: 5px;
+	padding: 10px 25px 20px 25px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.alert-error {
+	background-color: #ffd8d6;
+	border-color: #ffb1ac;
+}
+.alert-info {
+	background-color: #ccecfc;
+	border-color: #92d3f4;
+}
+
+/* Backgrounds */
+.bg {
+	padding: 10px 25px 10px 25px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+.bg-info {
+	background-color: #ccecfc;
+	border-color: #92d3f4;
+}
+.bg-grey {
+	background-color: #f4f5f6;
+	border-color: #d5d9dc;
+}
+
+/* Lists */
+.list-inline {
+	margin-bottom: 0;
+}
+.list-inline > li {
+	display: block;
+	float: left;
+}
+
+dl {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.dl-horizontal dt {
+	color: #6b7886;
+	font-weight: normal;
+	text-align: left;
+	white-space: normal;
+}
+.dl-horizontal dd {
+	margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+	.dl-horizontal dt {
+		width: 160px;
+	}
+	.dl-horizontal dd {
+		margin-left: 165px;
+	}
+}
+
+/* Buttons */
+.btn {
+	padding: 5px 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.btn-default {
+	background-color: #00a1f1;
+	border-color: transparent !important;
+	color: #ffffff !important;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+	background-color: #0091d9;
+}
+.btn-add {
+	background-color: #74c241;
+	border-color: transparent !important;
+	color: #ffffff !important;
+}
+.btn-add:hover,
+.btn-add:focus,
+.btn-add:active {
+	background-color: #6eb83e;
+}
+
+/* Forms */
+.form-group {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.form-control {
+	border-radius: 0;
+	border: 1px solid #b6c9d6;
+	color: #000;
+	font-size: 19px;
+	line-height: 1.5px;
+	height: auto;
+	padding: 9px 13px 8px 13px;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+.form-control:focus {
+	border-color: #b6c9d6;
+}
+.form-control::-moz-placeholder {
+	color: #6b7886;
+	opacity: 1;
+}
+.form-control:-ms-input-placeholder,
+.form-control::-webkit-input-placeholder {
+	color: #6b7886;
+}
+.has-error .form-control,
+.has-error .form-control:focus {
+	border-color: #ff3b30;
+}
+.has-success .form-control,
+.has-success .form-control:focus {
+	border-color: #008000;
+}
+
+textarea.form-control {
+	line-height: inherit;
+}
+.radio,
+.checkbox,
+select {
+	margin-left: 5px;
+}
+.radio label,
+.checkbox label {
+	padding-left: 25px;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+	margin-left: -25px;
+}
+
+div.text-danger {
+	margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Panel */
+.panel {
+	margin-bottom: 20px;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.panel-white-wide {
+	border: none;
+}
+.panel-white-wide .panel-body {
+	padding: 0 20px;
+}
+.panel-white-wide .panel-body > .row {
+	border: 1px solid #d5d9dc;
+	padding: 0 0 20px 0;
+	margin-bottom: -1px;
+}
+.panel-white-wide .panel-body > .row:hover {
+	cursor: pointer;
+	border-color: #abb2ba;
+	position: relative;
+	z-index: 2;
+}
+.panel-white {
+	border: 1px solid #d5d9dc;
+}
+.panel-white .panel-body {
+	padding: 20px;
+}
+
+.row.not-active {
+	background-color: #f4f5f6;
+}
+.row.blocked {
+	background-color: #ffd8d6;
+}
+
+
